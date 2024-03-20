@@ -131,9 +131,8 @@ html, body {
   max-width: 75%;
 }
 
-.red2 {
-  max-height: 45%;
-  margin-left: 18%;
+#redImg {
+  max-height: 280px;
 }
 
 .orange1 {
