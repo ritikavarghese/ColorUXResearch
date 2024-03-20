@@ -1,0 +1,78 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .navbar a::after {
+    content: "";
+    background-color: red;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.35s ease;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .rightText {
+    margin-left:20%;
+  }
+  .pageEnd {
+    margin-right: 15%;
+  }
+
+  .example {
+    text-wrap: nowrap;
+    padding-right: 17%;
+    text-decoration: none;
+    color: black;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .brand {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+  }
+
+  .splitter {
+    padding: 200px;
+  }
+ /* @media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background: rgb(20, 20, 20); }
+.text-cyan { color: #35bdff; */
+    
+body {
+        background-image: url(/images/black\ and\ white\ bg.png);
+        background-repeat: no-repeat;
+        max-width:500%
+}
