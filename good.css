@@ -43,6 +43,9 @@
     margin-right: 15%;
   }
 
+  .events {
+    text-wrap: nowrap;
+  }
   .example {
     text-wrap: nowrap;
     padding-right: 17%;
@@ -64,15 +67,164 @@
   .splitter {
     padding: 200px;
   }
- /* @media (min-width: 768px) {
-    .h-md-100 { height: 100vh; }
+
+  .title {
+    margin-left: 2%;
+  }
+
+  .goodEx {
+    color: black;
+    font-size: 300%;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+  }
+
+  .goodEx {
+    text-wrap: nowrap;
+  }
+  .content-container {
+    padding-top: 70px;
+    margin-left:;
+  }
+
+
+
+  
+/* .selling class */
+.selling {
+  font-family: 'DM Serif Display', serif;
+  margin-top: 17px;
+  text-align: center;
+  font-size: 200%;
+  /* Set initial color to black */
+  color: black;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
-.btn-round { border-radius: 30px; }
-.bg-indigo { background: rgb(20, 20, 20); }
-.text-cyan { color: #35bdff; */
-    
+
+h2 {
+  color: black;
+  font-size: 370%;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.circleimg {
+  max-width: 20%;
+}
+
+.marginCard {
+  margin-left: 60%;
+  margin-top: 6%;
+}
+
+selling {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.selling a:hover {
+  /* Change color to red on hover */
+  color: rgb(0, 0, 0);
+}
+
+/* Reset color for visited links */
+.selling a:visited {
+  color: rgb(255, 0, 0); 
+}
+
+/* .types class */
+.types {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+body.netflix-selling {
+  background-image: url(/images/blackwhite\ bg!!.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.chick-selling {
+  background-image: url(/images/redwhite\ bg!!.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.nike-selling {
+  background-image: url(/images/blackwhite\ bg!!.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #000; /* Optional: Add border for better visibility */
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+/* .extraCards class */
+.extraCards {
+  font-family: 'DM Serif Display', serif;
+  font-size: xxx-large;
+  margin-top: 17px;
+  text-align: center;
+  color: #391919;
+}
+
+/* #cardCarousel ID */
+#cardCarousel {
+  margin-top: 20px;
+}
+
+/* .carousel-item class */
+.carousel-item {
+  padding: 0 10px;
+}
+
+/* .container class within carousel items */
+.carousel-item .container {
+  padding: 0;
+}
+
+/* .col-sm-4 class within carousel items */
+.carousel-item .col-sm-4 {
+  padding: 0 5px;
+}
+
 body {
-        background-image: url(/images/black\ and\ white\ bg.png);
-        background-repeat: no-repeat;
-        max-width:500%
+        
 }

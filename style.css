@@ -27,6 +27,8 @@
   width: 100%;
 }
 
+
+
 .sticky {
   position: fixed;
   top: 0;
@@ -132,11 +134,14 @@ html, body {
 }
 
 #redImg {
-  max-height: 280px;
+  margin-left: 29%;
+  max-width: 50%;
 }
 
+
 .orange1 {
-  max-width: 100%; 
+  max-width: 250%; 
+  margin-right: 50%;
 }
 
 .about {
