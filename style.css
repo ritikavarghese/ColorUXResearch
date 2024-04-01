@@ -79,6 +79,19 @@ h1 {
 
 }
 
+.row {
+  margin-top: 0; /* Add this line to remove top margin */
+}
+
+h2 {
+  margin-top: 0; /* Add this line to remove top margin */
+}
+
+
+.decimalBoxOrange {
+  margin-bottom: 20%;
+}
+
 .content-container {
   padding-top: 37px;
   margin-left:;
@@ -155,9 +168,37 @@ html, body {
   margin-left: 7%;
 }
 
+.titleLol {
+  margin-left: 7%;
+  font-size: 150px;
+}
+
 .HexaDecimal {
   margin-left: 17%;
   margin-top: 5%;
+  text-align: center;
+}
+
+.aboutTwo {
+  line-height: 150%;
+  border: #333 1px solid;
+  padding: 2%;
+  border-width: 2px;
+  margin-right: 
+}
+
+.orange1 {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.decimalBoxTwo {
+  border: #333 1px solid;
+  border-width: 2px;
+  width: 50%;
+  margin-left: 40%;
+  text-align: center;
+  padding-right: 7%;
 }
 
 .decimalText {
@@ -169,8 +210,13 @@ html, body {
   border-width: 2px;
   width: 50%;
   margin-left: 7%;
+  padding-right: 7%;
 }
 
+.orangeImg {
+  max-width: 25%;
+  margin-left:20%;
+}
 .decimals {
   margin-top: 5%;
 }

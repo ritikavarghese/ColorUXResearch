@@ -172,7 +172,7 @@ selling {
 
 /* Reset color for visited links */
 .selling a:visited {
-  color: rgb(255, 0, 0); 
+  color: #14ae5cff; 
 }
 
 /* .types class */
@@ -181,6 +181,7 @@ selling {
   margin-right: 45px;
 }
 
+
 body.netflix-selling {
   background-image: url(/images/blackwhite\ bg!!.png);
   background-repeat: no-repeat;
@@ -188,7 +189,7 @@ body.netflix-selling {
 }
 
 body.chick-selling {
-  background-image: url(/images/redwhite\ bg!!.png);
+  background-image: url(/images/greenwhite\ bg!!.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

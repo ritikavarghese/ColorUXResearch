@@ -5,9 +5,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
         crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Markazi+Text:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Markazi+Text:wght@600&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="good.css">
 </head>
-<body>
+<body class="netflix-selling">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
         <div class="container-fluid">
           <a class="navbar-brand brand" href="/index.html">Color Design</a>
@@ -41,6 +48,7 @@
 
     <!-- Toggleable Sections -->
     <h1 class="selling">
+        More Examples <br>
         <span>
             <a href="#sides" onclick="showElement('netflixCarousel')" class="netflix-selling">Netflix</a>
         </span> 
@@ -57,16 +65,24 @@
         <!-- Card 1 -->
         <div class="carousel-item active" id="netflixCarousel">
             <div class="container-fluid mx-auto upcomingEvents">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-7">
-                        <div class="card col-md-4 marginCard"> <!-- Adjusted to col-md-4 to make the card take up 3 columns -->
-                            <img src="/images/SmileChildRed1 (1).png" class="card-img-top rounded-circle circleimg" alt="lol">
+                        <div class="card col-md-4 shadow-left"> <!-- Adjusted to col-md-4 to make the card take up 3 columns -->
+                            <div class="text-center"> <!-- Center the image within the card -->
+                                <img src="/images/SmileChildRed1 (1).png" class="card-img-top rounded-circle circleimg" alt="lol">
+                            </div>
                             <div class="card-body">
-                                <h5 class="card-title">NETFLIX</h5>
+                                
+                                <h5 class="card-title text-center">NETFLIX</h5>
+                                <div class="justify-content-center">
+                                    <img class="starRating" src="/images/Four-stars-Graphics-20654452-1-removebg-preview.png">
+                                </div>
+                                <br>
+                                <br>
                                 <p class="card-text">
-                                    Get ready for epic nights of sports, fun, and camaraderie! 
-                                    At Game Day Grill, we 
-                                </p>
+                                    Streaming Service <br>
+                                    Ranked the 2nd best streaming service in 2024
+                                </p><br>
                             </div>
                         </div>
                     </div>
@@ -74,13 +90,15 @@
                         <!-- Content for the remaining columns -->
                         <h2 class="events upEvents">NETFLIX</h2>
                         <p class="eventText">
-                            Get ready for epic nights of sports, fun, and camaraderie! 
-                            At Game Day Grill, we go beyond the ordinary by hosting thrilling event nights that turn every game 
-                            into a celebration. From themed nights to exclusive game screenings, we've got an electrifying lineup
-                            that will keep you on the edge of your seat. At Game Day Grill, we redefine the sports viewing experience! 
-                            With a whopping 46 state-of-the-art TVs strategically placed throughout our venue, you won't miss a single 
-                            moment of the action. Immerse yourself in the excitement of your favorite sports, and cheer for your team in 
-                            unparalleled clarity and vibrant colors.
+                            Netflix has received 4 stars for their website due to color scheme. When utilizing a dark mode website it is advised to have am option to 
+                            switch to light mode as it is easier for viewers who need a starker contrast while reading. However, overall the website 
+                            is nice. Netflix uses a black background with white text that does create a contrast for viewers to see.
+                            <br> Reasons for a Four:
+                            <br> - Colors pair well with others
+                            <br> - Color schemes are available to produce effective designs
+                            <br> - Color evokes and communicates a friendly and outgoing website
+                            <br> - Contrast plays a vital role - partially
+                            <br> - Elegant layout
                         </p>
                     </div>
                 </div>
@@ -92,20 +110,41 @@
         <!-- Card 2 -->
         <div class="carousel-item" id="chickCarousel">
             <div class="container-fluid mx-auto upcomingEvents">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <img src="/images.src/football on a f 9f0704f4-5292-4fbb-8143-83d8b0ed208d.png" class="img-fluid smaller" alt="NFL Football">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="card col-md-4 shadow-left"> <!-- Adjusted to col-md-4 to make the card take up 3 columns -->
+                            <div class="text-center"> <!-- Center the image within the card -->
+                                <img src="/images/SmileChildRed1 (1).png" class="card-img-top rounded-circle circleimg" alt="lol">
+                            </div>
+                            <div class="card-body">
+                                
+                                <h5 class="card-title text-center">Chick-Fil-A</h5>
+                                <div class="justify-content-center">
+                                    <img class="starRating" src="/images/5star-removebg-preview.png">
+                                </div>
+                                <br>
+                                <br>
+                                <p class="card-text">
+                                    Fast Food <br> Ranked the Number 1 in Customer Satisfaction
+                                </p>
+                                <br>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
+                        <!-- Content for the remaining columns -->
                         <h2 class="events upEvents">CHICK-FIL-A</h2>
                         <p class="eventText">
-                            Get ready for epic nights of sports, fun, and camaraderie! 
-                            At Game Day Grill, we go beyond the ordinary by hosting thrilling event nights that turn every game 
-                            into a celebration. From themed nights to exclusive game screenings, we've got an electrifying lineup
-                            that will keep you on the edge of your seat. At Game Day Grill, we redefine the sports viewing experience! 
-                            With a whopping 46 state-of-the-art TVs strategically placed throughout our venue, you won't miss a single 
-                            moment of the action. Immerse yourself in the excitement of your favorite sports, and cheer for your team in 
-                            unparalleled clarity and vibrant colors.
+                            Chick-Fil-A has received five stars for their website due to not only using a color scheme that has contrast, but by implementing more than 
+                            two colors for this contrasting color scheme. When looking at their website, they use a white background with dark red text to create contrast,
+                            but they also utlize light gray for their cards and use dark blue text to create another contrasting duo. This makes their website easy to read
+                            and also implements fun colors. 
+                            <br> Reasons for a Five:
+                            <br> - Colors pair well with others
+                            <br> - Color schemes are available to produce effective designs
+                            <br> - Color evokes and communicates a friendly and outgoing website
+                            <br> - Contrast plays a vital role
+                            <br> - Elegant layout
                         </p>
                     </div>
                 </div>
@@ -116,25 +155,46 @@
         <!-- Card 3 -->
         <div class="carousel-item" id="nikeCarousel">
             <div class="container-fluid mx-auto upcomingEvents">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <img src="/images.src/football on a f 9f0704f4-5292-4fbb-8143-83d8b0ed208d.png" class="img-fluid smaller" alt="NFL Football">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="card col-md-4 shadow-left"> <!-- Adjusted to col-md-4 to make the card take up 3 columns -->
+                            <div class="text-center"> <!-- Center the image within the card -->
+                                <img src="/images/SmileChildRed1 (1).png" class="card-img-top rounded-circle circleimg" alt="lol">
+                            </div>
+                            <div class="card-body">
+                                
+                                <h5 class="card-title text-center">Nike</h5>
+                                <div class="justify-content-center">
+                                    <img class="starRating" src="/images/5star-removebg-preview.png">
+                                </div>
+                                <br>
+                                <br>
+                                
+                                <p class="card-text">
+                                    Footwear and Apparel <br>
+                                    American athletic footwear and apparel corporation
+                                </p><br>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
+                        <!-- Content for the remaining columns -->
                         <h2 class="events upEvents">NIKE</h2>
                         <p class="eventText">
-                            Get ready for epic nights of sports, fun, and camaraderie! 
-                            At Game Day Grill, we go beyond the ordinary by hosting thrilling event nights that turn every game 
-                            into a celebration. From themed nights to exclusive game screenings, we've got an electrifying lineup
-                            that will keep you on the edge of your seat. At Game Day Grill, we redefine the sports viewing experience! 
-                            With a whopping 46 state-of-the-art TVs strategically placed throughout our venue, you won't miss a single 
-                            moment of the action. Immerse yourself in the excitement of your favorite sports, and cheer for your team in 
-                            unparalleled clarity and vibrant colors.
+                            Nike scored 5 stars on their website because overall the color schemes are not only nice but easy to read. Their website utilizes
+                            a white background with largely black to text on top. By using two colors that contrast one another it is very easy to read. 
+                            When adding images that have text to their website, the text always contrasts the image whather the image be light or dark.
+                            <br> Reasons for a Five:
+                            <br> - Colors pair well with others
+                            <br> - Color schemes are available to produce effective designs
+                            <br> - Color evokes and communicates a friendly and athletic website
+                            <br> - Contrast plays a vital role
+                            <br> - Elegant layout
                         </p>
                     </div>
                 </div>
             </div>
-      </div>
+        </div>
       
     </div>
             
@@ -142,43 +202,37 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         function showElement(elementId) {
-          hideAllCarouselItems();
-          
-          document.getElementById(elementId).classList.add('active');
-        }
-      
-        function hideAllCarouselItems() {
-          var carouselItems = document.querySelectorAll('.carousel-item');
-          carouselItems.forEach(function(item) {
-            item.classList.remove('active');
-          });
-        }
-        function showElement(elementId) {
-  hideAllCarouselItems();
-  
-  // Remove any existing background class
-  document.body.classList.remove('netflix-selling');
-  document.body.classList.remove('chick-selling');
-  document.body.classList.remove('nike-selling');
+        hideAllCarouselItems();
+        
+        // Remove any existing background class
+        document.body.classList.remove('netflix-selling');
+        document.body.classList.remove('chick-selling');
+        document.body.classList.remove('nike-selling');
 
-  // Add background class based on the clicked link
-  if (elementId === 'netflixCarousel') {
-    document.body.classList.add('netflix-selling');
-    document.getElementById('pageTitle').innerText = 'Netflix';
-    document.getElementById('pageTitle').style.color = 'black'; // Change text color to white
-  } else if (elementId === 'chickCarousel') {
-    document.body.classList.add('chick-selling');
-    document.getElementById('pageTitle').innerText = 'Chick-Fil-A';
-    document.getElementById('pageTitle').style.color = 'black'; // Change text color to black
-  } else if (elementId === 'nikeCarousel') {
-    document.body.classList.add('nike-selling');
-    document.getElementById('pageTitle').innerText = 'Good Website Examples';
-    document.getElementById('pageTitle').style.color = 'white'; // Change text color to white
-  }
-  
-  
-  document.getElementById(elementId).classList.add('active');
-}
+        // Add background class based on the clicked link
+        if (elementId === 'netflixCarousel') {
+            document.body.classList.add('netflix-selling');
+            document.getElementById('pageTitle').innerText = 'Good Website Examples';
+            document.getElementById('pageTitle').style.color = 'white'; // Change text color to black
+        } else if (elementId === 'chickCarousel') {
+            document.body.classList.add('chick-selling');
+            document.getElementById('pageTitle').innerText = 'Good Website Examples';
+            document.getElementById('pageTitle').style.color = 'white'; // Change text color to black
+        } else if (elementId === 'nikeCarousel') {
+            document.body.classList.add('nike-selling');
+            document.getElementById('pageTitle').innerText = 'Good Website Examples';
+            document.getElementById('pageTitle').style.color = 'white'; // Change text color to white
+        }
+        
+        document.getElementById(elementId).classList.add('active');
+    }
+
+    function hideAllCarouselItems() {
+        var carouselItems = document.querySelectorAll('.carousel-item');
+        carouselItems.forEach(function(item) {
+            item.classList.remove('active');
+        });
+    }
     </script>
 </body>
 </html>
