@@ -143,9 +143,12 @@ h2 {
 }
 
 .circleimg {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 50%;
 
+}
+
+#chickImg {
+  max-width: 50%;
 }
 
 .card {

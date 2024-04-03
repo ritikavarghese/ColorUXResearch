@@ -142,11 +142,7 @@ h2 {
 
 }
 
-.circleimg {
-  max-width: 20%;
-  max-height: 20%;
 
-}
 
 .card {
   margin-left: 60%;
@@ -181,6 +177,10 @@ selling {
   margin-right: 45px;
 }
 
+.circleimg {
+  max-width: 50%;
+
+}
 
 body.netflix-selling {
   background-image: url(/images/blackwhite\ bg!!.png);
